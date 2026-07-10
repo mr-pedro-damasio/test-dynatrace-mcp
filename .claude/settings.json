@@ -4,5 +4,8 @@
     "_ANTHROPIC_AUTH_TOKEN": "",
     "_ANTHROPIC_API_KEY": "",
     "_ANTHROPIC_MODEL": "deepseek/deepseek-v4-pro"
+  },
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true
   }
 }
