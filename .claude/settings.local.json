@@ -1,0 +1,11 @@
+{
+  "enabledMcpjsonServers": [
+    "dynatrace"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(sed -i -E 's#^\\(DT_ENVIRONMENT=https://[^[:space:]]+\\)/[[:space:]]*$#\\\\1#' .env)",
+      "Bash(awk -F= '/^DT_ENVIRONMENT=/ {print \"DT_ENVIRONMENT ends with:\", substr\\($0, length\\($0\\), 1\\), \"\\(len \"length\\(substr\\($0,index\\($0,\"=\"\\)+1\\)\\)\"\\)\"}' .env)"
+    ]
+  }
+}
