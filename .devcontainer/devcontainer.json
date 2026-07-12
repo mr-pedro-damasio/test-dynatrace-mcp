@@ -16,7 +16,6 @@
         "GitHub.copilot",
         "GitHub.copilot-chat",
         "anthropic.claude-code",
-        "google.geminicodeassist",
         "openai.chatgpt"
       ]
     }
